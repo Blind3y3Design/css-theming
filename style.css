@@ -1,0 +1,368 @@
+:root {
+    --nebula-color-neutral-100: #FFFFFF;
+    --nebula-color-neutral-200: #FAFAFA;
+    --nebula-color-neutral-300: #E8E8E8;
+    --nebula-color-neutral-400: #595959;
+    --nebula-color-neutral-500: #3D3D3D;
+    --nebula-color-neutral-600: #000000;
+    --nebula-color-white: #FFFFFF;
+    --nebula-color-black: #000000;
+    --nebula-color-interface-blue-100: #E0E8EB;
+    --nebula-color-interface-blue-200: #C1D1D7;
+    --nebula-color-interface-blue-300: #A2BBC3;
+    --nebula-color-interface-blue-400: #648D9B;
+    --nebula-color-interface-blue-500: #50717C;
+    --nebula-color-interface-blue-600: #28393E;
+    --nebula-color-interactive-blue-100: #6BBFFF;
+    --nebula-color-interactive-blue-200: #38A9FF;
+    --nebula-color-interactive-blue-300: #0077D1;
+    --nebula-color-interactive-blue-400: #005A9E;
+    --nebula-color-interactive-blue-500: #003D6B;
+    --nebula-color-platform-white: #FFFFFF;
+    --nebula-color-platform-black: #000000;
+    --nebula-color-platform-neutral-100: #FAFAFA;
+    --nebula-color-platform-neutral-200: #F0F0F0;
+    --nebula-color-platform-neutral-300: #D6D6D6;
+    --nebula-color-platform-neutral-400: #BDBDBD;
+    --nebula-color-platform-neutral-500: #A3A3A3;
+    --nebula-color-platform-neutral-600: #8A8A8A;
+    --nebula-color-platform-neutral-700: #707070;
+    --nebula-color-platform-neutral-800: #575757;
+    --nebula-color-platform-neutral-900: #3D3D3D;
+    --nebula-color-platform-neutral-1000: #242424;
+    --nebula-color-platform-neutral-1100: #0A0A0A;
+    --nebula-color-platform-interface-100: #F9FAFB;
+    --nebula-color-platform-interface-200: #F0F4F5;
+    --nebula-color-platform-interface-300: #E0E8EB;
+    --nebula-color-platform-interface-400: #C1D1D7;
+    --nebula-color-platform-interface-500: #A2BBC3;
+    --nebula-color-platform-interface-600: #83A4AF;
+    --nebula-color-platform-interface-700: #648D9B;
+    --nebula-color-platform-interface-800: #50717C;
+    --nebula-color-platform-interface-900: #3C555D;
+    --nebula-color-platform-interface-1000: #28393E;
+    --nebula-color-platform-interface-1100: #141C1F;
+    --nebula-color-platform-interactive-100: #F0F9FF;
+    --nebula-color-platform-interactive-200: #DBF0FF;
+    --nebula-color-platform-interactive-300: #D1EBFF;
+    --nebula-color-platform-interactive-400: #9ED5FF;
+    --nebula-color-platform-interactive-500: #6BBFFF;
+    --nebula-color-platform-interactive-600: #38A9FF;
+    --nebula-color-platform-interactive-700: #0593FF;
+    --nebula-color-platform-interactive-800: #0077D1;
+    --nebula-color-platform-interactive-900: #005A9E;
+    --nebula-color-platform-interactive-1000: #003D6B;
+    --nebula-color-platform-interactive-1100: #002038;
+    --nebula-color-science-primary-100: #CEFBCB;
+    --nebula-color-science-primary-200: #74F36D;
+    --nebula-color-science-primary-300: #1EE713;
+    --nebula-color-science-primary-400: #18B80F;
+    --nebula-color-science-primary-500: #12880B;
+    --nebula-color-science-primary-600: #0C5907;
+    --nebula-color-science-secondary-100: #94F0DF;
+    --nebula-color-science-secondary-200: #2EB7BF;
+    --nebula-color-science-secondary-300: #037FC5;
+    --nebula-color-science-gradient-100: linear-gradient(53.49deg, #2EE916 22.68%, #00C000 88.08%);
+    --nebula-color-science-gradient-200: linear-gradient(240.47deg, #2EB7BF 12.66%, #7ADF07 115.1%);
+    --nebula-color-science-gradient-300: linear-gradient(247.05deg, #2EBFA5 16.79%, #037FC5 101.74%);
+    --nebula-color-social-studies-primary-100: #FFE2D1;
+    --nebula-color-social-studies-primary-200: #FFC19E;
+    --nebula-color-social-studies-primary-300: #FFA06B;
+    --nebula-color-social-studies-primary-400: #FF8038;
+    --nebula-color-social-studies-primary-500: #FF5F05;
+    --nebula-color-social-studies-primary-600: #9E3900;
+    --nebula-color-social-studies-secondary-100: #BFCDFF;
+    --nebula-color-social-studies-secondary-200: #7D82FB;
+    --nebula-color-social-studies-secondary-300: #3941FF;
+    --nebula-color-social-studies-gradient-100: linear-gradient(53.49deg, #FF5E03 22.68%, #CB4814 88.08%);
+    --nebula-color-social-studies-gradient-200: linear-gradient(233.24deg, #BFCDFF -1.34%, #FF5E03 98.48%);
+    --nebula-color-social-studies-gradient-300: linear-gradient(238.41deg, #BFCDFF 0.41%, #3941FF 77.83%);
+    --nebula-color-math-primary-100: #C0A4F4;
+    --nebula-color-math-primary-200: #A077EE;
+    --nebula-color-math-primary-300: #814AE8;
+    --nebula-color-math-primary-400: #611DE2;
+    --nebula-color-math-primary-500: #4E17B5;
+    --nebula-color-math-primary-600: #270B5A;
+    --nebula-color-math-secondary-100: #FFB970;
+    --nebula-color-math-secondary-200: #FF8605;
+    --nebula-color-math-secondary-300: #F82289;
+    --nebula-color-math-gradient-100: linear-gradient(53.49deg, #4E17B5 22.68%, #7E00CC 71.96%);
+    --nebula-color-math-gradient-200: linear-gradient(240.47deg, #F82289 12.66%, #7E00CC 115.1%);
+    --nebula-color-math-gradient-300: linear-gradient(234.63deg, #FFB970 12.36%, #F82289 115.93%);
+    --nebula-color-teach-primary-100: #FFFAE0;
+    --nebula-color-teach-primary-200: #FFF2AD;
+    --nebula-color-teach-primary-300: #FFEA7A;
+    --nebula-color-teach-primary-400: #FFE247;
+    --nebula-color-teach-primary-500: #FFDA15;
+    --nebula-color-teach-primary-600: #AD9200;
+    --nebula-color-teach-secondary-100: #89A3FF;
+    --nebula-color-teach-secondary-200: #577CFE;
+    --nebula-color-teach-secondary-300: #4830DD;
+    --nebula-color-coding-primary-100: #A1CFF7;
+    --nebula-color-coding-primary-200: #72B7F3;
+    --nebula-color-coding-primary-300: #439FEF;
+    --nebula-color-coding-primary-400: #1487EB;
+    --nebula-color-coding-primary-500: #106CBC;
+    --nebula-color-coding-primary-600: #0C518D;
+    --nebula-color-coding-secondary-100: #10C1D8;
+    --nebula-color-coding-secondary-200: #1170C3;
+    --nebula-color-coding-secondary-300: #972EE3;
+    --nebula-color-stem-primary-100: #B1E7DD;
+    --nebula-color-stem-primary-200: #89DCCD;
+    --nebula-color-stem-primary-300: #62D0BC;
+    --nebula-color-stem-primary-400: #3BC4AB;
+    --nebula-color-stem-primary-500: #2F9D89;
+    --nebula-color-stem-primary-600: #174F45;
+    --nebula-color-stem-secondary-100: #FFE926;
+    --nebula-color-stem-secondary-200: #D6C31D;
+    --nebula-color-stem-secondary-300: #AC9D15;
+    --nebula-color-error: #E32B2B;
+    --nebula-color-warning: #DB7600;
+    --nebula-color-success: #128725;
+    --nebula-color-glass-100: rgba(#50717C, .75);
+
+    --nebula-text-color-body-default: #595959;
+    --nebula-text-color-body-on-dark: #FFFFFF;
+    --nebula-text-color-header-default: #3D3D3D;
+    --nebula-text-color-header-on-dark: #FFFFFF;
+    --nebula-text-color-link-default: #0077D1;
+    --nebula-text-color-link-hover: #005A9E;
+    --nebula-text-color-link-active: #003D6B;
+    --nebula-text-color-link-on-dark: #FFFFFF;
+
+    --nebula-font-family-display: 'Proxima Vara', Arial, sans-serif;
+    --nebula-font-family-body: 'Proxima Vara', Arial, sans-serif;
+    --nebula-font-family-serif: 'Droid Serif', Georgia, serif;
+    --nebula-font-size-rem-base: 16px;
+    --nebula-font-size-body-1: 1.125rem;
+    --nebula-font-size-body-2: 1rem;
+    --nebula-font-size-header-level-1: 4.25rem;
+    --nebula-font-size-header-level-2: 3.375rem;
+    --nebula-font-size-header-level-3: 2.6875rem;
+    --nebula-font-size-header-level-4: 2.1875rem;
+    --nebula-font-size-header-level-5: 1.75rem;
+    --nebula-font-size-header-level-6: 1.5rem;
+    --nebula-font-size-caption: .875rem;
+    --nebula-font-size-jumbo: 5.3125rem;
+    --nebula-font-size-mobile-body-1: 1rem;
+    --nebula-font-size-mobile-header-level-1: 2.1875rem;
+    --nebula-font-size-mobile-header-level-2: 1.75rem;
+    --nebula-font-size-mobile-header-level-3: 1.5625rem;
+    --nebula-font-size-mobile-header-level-4: 1.375rem;
+    --nebula-font-size-mobile-header-level-5: 1.25rem;
+    --nebula-font-size-mobile-header-level-6: 1.125rem;
+    --nebula-font-line-height-default: 1.4;
+    --nebula-font-line-height-heading: 1.2;
+
+    --nebula-space-quarter: 2px;
+    --nebula-space-half: 4px;
+    --nebula-space-1x: 8px;
+    --nebula-space-2x: 16px;
+    --nebula-space-3x: 24px;
+    --nebula-space-4x: 32px;
+    --nebula-space-5x: 40px;
+    --nebula-space-6x: 48px;
+    --nebula-space-7x: 56px;
+    --nebula-space-8x: 64px;
+    --nebula-space-9x: 72px;
+    --nebula-space-10x: 80px;
+
+    --nebula-shadow-100: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    --nebula-shadow-200: 0px 2px 10px 2px rgba(0, 0, 0, 0.1);
+    --nebula-shadow-300: 0px 4px 15px 2px rgba(0, 0, 0, 0.1);
+    --nebula-shadow-400: 0px 4px 26px 5px rgba(0, 0, 0, 0.1);
+
+    --nebula-border-radius-small: 8px;
+    --nebula-border-radius-default: 16px;
+    --nebula-border-radius-large: 24px;
+    --nebula-border-radius-button-default: 8px;
+    --nebula-border-radius-button-pill: 32px;
+    --nebula-border-radius-badge-default: 4px;
+
+    --nebula-transition-default: .25s ease-in-out;
+    --nebula-transition-fade-in: .25s ease-in;
+    --nebula-transition-fade-out: .45s ease-out;
+
+    --nebula-breakpoints-mobile-portrait-small: 320px;
+    --nebula-breakpoints-mobile-portrait: 375px;
+    --nebula-breakpoints-tablet-portrait: 768px;
+    --nebula-breakpoints-tablet-landscape: 1024px;
+    --nebula-breakpoints-desktop: 1200px;
+    --nebula-breakpoints-desktop-wide: 1440px;
+
+    --nebula-blur-glass-100: 15px;
+}
+
+.button-container {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+
+.nebula-button {
+    align-items: center;
+    background: var(--nebula-button-background, var(--nebula-color-platform-interactive-800));
+    border: var(--nebula-button-border, none);
+    border-color: var(--nebula-button-border-color, var(--nebula-color-platform-interactive-800));
+    border-radius: var(--nebula-button-border-radius, var(--nebula-border-radius-button-default));
+    color: var(--nebula-button-text-color, var(--nebula-color-platform-white));
+    cursor: pointer;
+    display: flex;
+    flex-shrink: 0;
+    font-family: var(--nebula-button-font-family, var(--nebula-font-family-body));
+    font-size: var(--nebula-button-font-size, var(--nebula-font-size-body-1));
+    font-style: var(--nebula-button-font-style, normal);
+    font-weight: var(--nebula-button-font-weight, 600);
+    line-height: var(--nebula-button-line-height, 1);
+    padding: var(--nebula-button-padding, 11px var(--nebula-space-2x));
+    text-decoration: none;
+    transition: var(--nebula-button-transition, all var(--nebula-transition-default));
+    width: max-content;
+}
+
+.nebula-button:hover,
+.nebula-button:focus {
+    background: var(--nebula-button-background-hover, var(--nebula-color-platform-interactive-900));
+    border-color: var(--nebula-button-border-color-hover, var(--nebula-color-platform-interactive-900));
+    color: var(--nebula-button-text-color-hover, var(--nebula-color-platform-white));
+}
+
+.nebula-button:active{
+    background: var(--nebula-button-background-active, var(--nebula-color-platform-interactive-1000));
+    border-color: var(--nebula-button-border-color-active, var(--nebula-color-platform-interactive-1000));
+    color: var(--nebula-button-text-color-active, var(--nebula-color-platform-white));
+}
+
+.nebula-button--secondary {
+    background: var(--nebula-button-secondary-background);
+    border-color: var(--nebula-button-secondary-border-color);
+    color: var(--nebula-button-secondary-text-color);
+}
+
+.nebula-button--secondary:hover,
+.nebula-button--secondary:focus {
+    background: var(--nebula-button-secondary-background-hover);
+    border-color: var(--nebula-button-secondary-border-color-hover);
+    color: var(--nebula-button-secondary-text-color-hover);
+}
+
+.nebula-button--secondary:active{
+    background: var(--nebula-button-secondary-background-active);
+    border-color: var(--nebula-button-secondary-border-color-active);
+    color: var(--nebula-button-secondary-text-color-active);
+}
+
+[data-type="nebula-ghost"] {
+    --nebula-button-background: transparent;
+    --nebula-button-background-hover: var(--nebula-color-platform-interactive-900);
+    --nebula-button-background-active: var(--nebula-color-platform-interactive-1000);
+    --nebula-button-border: 1px solid var(--nebula-button-border-color);
+    --nebula-button-border-color: var(--nebula-color-platform-interactive-800);
+    --nebula-button-border-color-hover: var(--nebula-color-platform-interactive-900);
+    --nebula-button-border-color-active: var(--nebula-color-platform-interactive-1000);
+    --nebula-button-padding: 10px calc(var(--nebula-space-2x) - 1px);
+    --nebula-button-text-color: var(--nebula-color-platform-interactive-800);
+    --nebula-button-text-color-hover: var(--nebula-color-platform-white);
+    --nebula-button-text-color-active: var(--nebula-color-platform-white);
+}
+
+[data-type="nebula-flat"] {
+    --nebula-button-background: transparent;
+    --nebula-button-background-hover: var(--nebula-color-platform-interactive-200);
+    --nebula-button-background-active: var(--nebula-color-platform-interactive-400);
+    --nebula-button-text-color: var(--nebula-color-platform-interactive-800);
+    --nebula-button-text-color-hover: var(--nebula-color-platform-interactive-800);
+    --nebula-button-text-color-active: var(--nebula-color-platform-interactive-900);
+}
+
+[data-type="mystery"] {
+    --nebula-button-background: black;
+    --nebula-button-background-hover: rgba(0,0,0,0.6);
+    --nebula-button-background-active: rgba(0,0,0,0.6);
+    --nebula-button-border: none;
+    --nebula-button-border-radius: 0;
+    --nebula-button-font-family: var(--nebula-font-family-body);
+    --nebula-button-font-size: var(--nebula-font-size-body-2);
+    --nebula-button-font-weight: 700;
+    --nebula-button-font-style: normal;
+    --nebula-button-line-height: 1.5;
+    --nebula-button-padding: var(--nebula-space-1x) 28px;
+    --nebula-button-text-color: var(--nebula-color-platform-white);
+    --nebula-button-transition: background-color .2s;
+}
+
+[data-type="sesame"] {
+    --nebula-button-background: #FFD400;
+    --nebula-button-background-hover: #CA0;
+    --nebula-button-background-active: #B39500;
+    --nebula-button-text-color: #000;
+    --nebula-button-text-color-hover: #000;
+    --nebula-button-text-color-active: #000;
+}
+
+[data-type="lego"] {
+    --nebula-button-background: rgb(253, 128, 36);
+    --nebula-button-background-hover: var(--nebula-color-platform-white);
+    --nebula-button-background-active: var(--nebula-color-platform-white);
+    --nebula-button-border: 2px solid var(--nebula-button-border-color);
+    --nebula-button-border-color:  rgb(253, 128, 36);
+    --nebula-button-border-color-hover:  rgb(253, 128, 36);
+    --nebula-button-border-color-active:  rgb(253, 128, 36);
+    --nebula-button-border-radius: 4px;
+    --nebula-button-font-weight: 500;
+    --nebula-button-padding: .9375rem;
+    --nebula-button-text-color: #000;
+    --nebula-button-text-color-hover: #000;
+    --nebula-button-text-color-active: #000;
+    --nebula-button-transition: none;
+}
+
+[data-type="science-tb"] {
+    --nebula-button-background: var(--nebula-color-science-primary-300);
+    --nebula-button-background-hover: var(--nebula-color-science-primary-500);
+    --nebula-button-background-active: var(--nebula-color-science-primary-600);
+    --nebula-button-border-radius: 16px;
+    --nebula-button-padding: var(--nebula-space-2x) var(--nebula-space-5x);
+    --nebula-button-text-color: var(--nebula-color-platform-neutral-900);
+    --nebula-button-text-color-hover: var(--nebula-color-platform-white);
+    --nebula-button-text-color-active: var(--nebula-color-platform-white);
+}
+
+
+/* Begin brand theme trials */
+
+.sesame-theme {
+    /* Brand Primary Stack */
+    --brand-color-primary-hs: 147, 100%;
+    --brand-color-primary-hex: #00AB4D;
+    --brand-color-primary-lighter: hsl(var(--brand-color-primary-hs), 54%);
+    --brand-color-primary-light: hsl(var(--brand-color-primary-hs), 44%);
+    --brand-color-primary: hsl(var(--brand-color-primary-hs), 34%);
+    --brand-color-primary-dark: hsl(var(--brand-color-primary-hs), 24%);
+    --brand-color-primary-darker: hsl(var(--brand-color-primary-hs), 14%);
+
+    /* Brand Secondary Stack */
+    --brand-color-secondary-hs: 50, 100%;
+    --brand-color-secondary-hex: #FFD400;
+    --brand-color-secondary-lighter: hsl(var(--brand-color-secondary-hs), 70%);
+    --brand-color-secondary-light: hsl(var(--brand-color-secondary-hs), 60%);
+    --brand-color-secondary: hsl(var(--brand-color-secondary-hs), 50%);
+    --brand-color-secondary-dark: hsl(var(--brand-color-secondary-hs), 40%);
+    --brand-color-secondary-darker: hsl(var(--brand-color-secondary-hs), 30%);
+
+    /* Brand Primary Button Styles */
+    --nebula-button-background: var(--brand-color-primary);
+    --nebula-button-background-hover: var(--brand-color-primary-dark);
+    --nebula-button-background-active: var(--brand-color-primary-darker);
+
+    /* Brand Secondary Button Styles */
+    --nebula-button-secondary-background: var(--brand-color-secondary);
+    --nebula-button-secondary-background-hover: var(--brand-color-secondary-dark);
+    --nebula-button-secondary-background-active: var(--brand-color-secondary-darker);
+    --nebula-button-secondary-text-color: #000;
+    --nebula-button-secondary-text-color-hover: #000;
+    --nebula-button-secondary-text-color-active: #000;
+}
